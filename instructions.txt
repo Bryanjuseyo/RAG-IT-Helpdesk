@@ -6,12 +6,12 @@ docker exec -it rag_it_helpdesk_db psql -U rag -d ragdb
 # Check if db init correctly
 SELECT extname FROM pg_extension WHERE extname='vector';
 
-# backend
+# Backend
 cd backend
 pip install -r requirements.txt
 python app.python
 
-# frontend
+# Frontend
 npm create vite@latest . -- --template react
 npm install
 npm run dev
