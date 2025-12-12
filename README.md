@@ -4,5 +4,6 @@ A RAG chatbot used to answer IT support queries
 # Tech stack used for this project
 Frontend: React  
 Backend: Flask / Python  
-DB: Postgres / PGVector  
+DB: Postgres / PGVector 
+LLM: llama3.1 
 Docker
